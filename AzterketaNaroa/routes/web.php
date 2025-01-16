@@ -18,3 +18,4 @@ Route::get('/alokatzaileak',[AlokatzaileaController::class, 'showAll'])->name('a
 Route::get('/edit-alokailua/{id}',[AlokatzaileaController::class,'edit'])->name('alokailua.edit');
 Route::put('/edit-alokailua/{id}',[AlokatzaileaController::class,'update'])->name('alokailua.update');
 Route::delete('/alokailua-delete/{id}',[AlokatzaileaController::class,'delete'])->name('delete-alokailua');
+

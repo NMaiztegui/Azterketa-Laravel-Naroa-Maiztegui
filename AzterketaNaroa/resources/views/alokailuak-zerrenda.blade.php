@@ -6,7 +6,7 @@
             <div class="panel panel-success">
                 <div class="panel-heading"><h1>Etxeen zerrenda <h1></div>
              
-
+                 
                     <table class="table">
                         <tr>
                             <th>Izena</th>
