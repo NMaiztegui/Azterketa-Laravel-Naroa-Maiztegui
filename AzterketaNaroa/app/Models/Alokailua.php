@@ -4,6 +4,7 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 
 class Alokailua extends Model
@@ -15,7 +16,7 @@ class Alokailua extends Model
        "etxea_id",
     ];
 
-   public function etxea():HasMany{
-    return $this-> hasMany(Etxea::class);
+   public function etxea():BelongsTo{
+    return $this-> belongsTo(Etxea::class);
    }
 }

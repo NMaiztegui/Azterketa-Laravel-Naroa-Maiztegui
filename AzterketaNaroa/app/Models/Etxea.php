@@ -17,8 +17,6 @@ class Etxea extends Model
         "eraikuntza_urtea",
     ];
 
-    public function alikailua():BelongsTo{
-        return $this->belongsTo(Alokailua::class);
-    }
+   
 
 }

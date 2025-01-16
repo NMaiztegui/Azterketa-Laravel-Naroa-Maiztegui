@@ -33,7 +33,13 @@ family=figtree:400,500,600&display=swap" rel="stylesheet" />
                     <!-- Right Side Of Navbar -->
                     <ul class="navbar-nav ms-auto">
                         <!-- Authentication Links -->
-                        
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ route('etxea.zerrenda') }}">{{ __('Etxeak') }}</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ route('alokatzaileak.zerrenda') }}">{{ __('Alokatzaileak') }}</a>
+                        </li>
                         
                         
                     </ul>
